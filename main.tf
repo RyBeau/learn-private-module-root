@@ -33,7 +33,7 @@ provider "aws" {
   }
 }
 
-module "terraform-aws-s3-webapp" {
+module "s3-webapp" {
   source  = "app.terraform.io/rybeau-homelab/terraform-aws-s3-webapp/aws"
   version = "1.0.0"
   name    = var.name
